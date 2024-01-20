@@ -1,0 +1,70 @@
+body {
+  margin: 20%;
+  padding: 0;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#divLogo {
+  width: 130px;
+  margin: auto;
+}
+
+#nokiaLogo {
+  width: 130px;
+}
+
+#boxCalcu {
+  background-color: #48495F;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+#divNums {
+  /*height: 25px;*/
+  width: 285px;
+  text-align: center;
+  font-size: 2em;
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #7CA782;
+} 
+
+#divBtns {
+  display: grid;
+  grid-template-areas: 'buttons buttons buttons';
+  gap: 10px;
+}
+
+.buttons {
+  border-radius: 10px;
+  font-size: 1.1em;
+  border: 1px solid black;
+  background-color: #D3D3DA;
+}
+
+#divResultAndBtn{
+  margin: 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  button {
+    width: 93px;
+    height: 38px;
+    background-color: #43a3bb;
+    border: none;
+  }
+}
+
+#result {
+  width: 190px;
+  font-size: 1.3em;
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #7CA782;
+}
