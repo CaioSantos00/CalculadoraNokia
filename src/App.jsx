@@ -32,7 +32,7 @@ function App() {
   return (
     <div id='boxCalcu'>
       <div id='divLogo'>
-      <img id='nokiaLogo' src="../public/logonokia.png" alt="Logo Nokia" />
+      <img id='nokiaLogo' src="/logonokia.png" alt="Logo Nokia" />
       </div>
       <input value={num} id='divNums'/>
       <div id='divBtns'>
