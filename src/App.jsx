@@ -1,5 +1,4 @@
 import { useState} from 'react';
-import logoNokia from '../public/logoNokia.png'
 import './App.css'
 import Button from './components/buttons';
 
@@ -33,7 +32,7 @@ function App() {
   return (
     <div id='boxCalcu'>
       <div id='divLogo'>
-      <img id='nokiaLogo' src={logoNokia} alt="Logo Nokia" />
+      <img id='nokiaLogo' src="../public/logonokia.png" alt="Logo Nokia" />
       </div>
       <input value={num} id='divNums'/>
       <div id='divBtns'>
